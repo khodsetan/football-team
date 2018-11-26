@@ -28,7 +28,7 @@ class User extends Authenticatable implements JWTSubject {
         'password', 'remember_token',
     ];
 
-    public function getJWTCustomClaims(): array {
+    public function getJWTCustomClaims() {
         return [];
     }
 

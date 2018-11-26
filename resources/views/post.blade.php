@@ -63,7 +63,6 @@
         </style>
     </head>
     <body>
-        Laravel
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
             <div class="top-right links">
@@ -78,36 +77,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                Laravel
+                    {{$post->title}}
+                    {{$post->body}}
+                    {{$post->created_at->toFormattedDateString()}}
                 </div>
 
-                <div class="links">
-                    <p>The JWT is used for authentication so plaese
-                    login and provide the given token in requests.
-                    </p>
-                    <p>APIs Content-Type: application/json</p>
-                    <p> API endpoint to login : /api/login with Post
-                        <br>
-                        Params: email (admin@gmail.com), password (123456)
-                    </p>
-                    <p> API endpoint to add a team : /api/team  Post
-                        <br>
-                        Params: name, token
-                    </p>
-                    <p> API endpoint to add a player : /api/player  Post
-                        <br>
-                        Params: team_id, first_name, last_name, token
-                    </p>
-                    <p> API endpoint to update a player : /api/player  Put
-                        <br>
-                        Params: player_id, first_name, last_name, token
-                    </p>
-                    <p>  API endpoint to get a team and its players
-                        : /api/team  Get
-                        <br>
-                        Param: token
-                    </p>
-                </div>
+                
             </div>
         </div>
     </body>

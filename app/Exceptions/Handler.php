@@ -46,6 +46,7 @@ class Handler extends ExceptionHandler {
      */
     public function render($request, Exception $exception) {
         
+        throw $exception;
         if ($exception instanceof UnauthorizedHttpException) {
             return response()->json('Unauthorized, please login and provide'
                     . ' given token in your request', 403);

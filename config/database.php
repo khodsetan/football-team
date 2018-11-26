@@ -1,10 +1,10 @@
 <?php
-$url = parse_url(getenv("DATABASE_URL"));
-
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
+//$url = parse_url(getenv("DATABASE_URL"));
+//
+//$host = $url["host"];
+//$username = $url["user"];
+//$password = $url["pass"];
+//$database = substr($url["path"], 1);
 return [
 
     /*
@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'database' => env('DB_DATABASE', database_path('testing.sqlite')),
             'prefix' => '',
         ],
 
@@ -59,16 +59,16 @@ return [
             'engine' => 'InnoDB',
         ],
 
-		'pgsql' => array(
-        'driver'   => 'pgsql',
-        'host'     => $host,
-        'database' => $database,
-        'username' => $username,
-        'password' => $password,
-        'charset'  => 'utf8',
-        'prefix'   => '',
-        'schema'   => 'public',
-		),
+//		'pgsql' => array(
+//        'driver'   => 'pgsql',
+//        'host'     => $host,
+//        'database' => $database,
+//        'username' => $username,
+//        'password' => $password,
+//        'charset'  => 'utf8',
+//        'prefix'   => '',
+//        'schema'   => 'public',
+//		),
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',

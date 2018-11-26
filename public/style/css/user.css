@@ -1,0 +1,593 @@
+
+/*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		4.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Dec 12, 2015
+*	Website:		http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*	
+**/
+@font-face {
+    font-family: 'Nazanin';
+    src: url('/styles/font/Nazanin.eot') format('eot'),
+        url('/styles/font/Nazanin.woff') format('woff'),
+        url('/styles/font/Nazanin.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "iran-sans";
+    src: url('/styles/font/iran-sans.eot') format('eot'),
+        url('/styles/font/iran-sans.woff') format('woff'),
+        url('/styles/font/iran-sans.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mj";
+    src: url('/styles/font/Mj.eot') format('eot'),
+        url('/styles/font/Mj.woff') format('woff'),
+        url('/styles/font/Mj.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html {
+    padding:0px;
+    margin:0px;
+    font-family: "iran-sans" !important;
+    line-height: 1.8;
+    text-align: right;
+    font-size: 18px;
+    cursor: context-menu;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "iran-sans" !important;
+
+    color: #e29d1d !important;
+    direction: rtl;
+}
+
+.logo {
+    width: 10% !important;
+    float: left;
+    height: 61px;
+    margin-bottom: 5px;
+    margin-right: 16px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.delifood {
+    font-family: "Mj" !important;
+    font-size: 30px;
+    color: white;
+    padding-top: 70px;
+}
+.padding {
+    padding-right: 15px;
+}
+
+.color {
+    color: red;
+}
+.col-sm-push-4 input {
+    width: 95%;
+    padding-right: 5%;
+    padding-top: 11px;
+    border: 1px solid gray;
+    margin-top: 6px;
+}
+.col-sm-pull-8 button {
+    margin: 6px 0 10px 0 !important;
+    width: 149% !important;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 0;
+    background-color: green;
+    text-align: center;
+}
+
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.my-height {
+    height: 173px;
+}
+.position {
+    position: relative;
+    border-radius: 5px;
+}
+.position a {
+    color: orange;
+}
+@keyframes fading {
+    from {top:-200px;opacity: 0; }
+    to {top:0;opacity: 1;}
+}
+@-webkit-keyframes fading {
+    from {top:-200px;opacity: 0; }
+    to {top:0;opacity: 1;}
+}
+.notLog {
+    position: absolute;
+    z-index: 2;
+    height: 618px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white !important;
+    font-size: 36px;
+    padding-top: 20%;
+}
+
+.mynav {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(32,14,15, 0.3);  
+}
+.mynav a {
+    color: white !important;
+}
+.search-nav {
+    color: white !important;
+}
+.search-nav a {
+    color: white !important;
+}
+.search-nav i {
+    color: white !important;
+}
+.mynav ul li {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.mynav ul li i{
+    padding: 5px;
+}
+.navbar-nav > li {
+    float: left !important;
+}
+
+.icon-bar {
+    background-color: gray;
+}
+.my-margin {
+    margin: 15px;
+}
+.my-margin-top {
+    margin-top: 20px;
+}
+.my-padding {
+    padding: 20px;
+}
+.container-fluid {
+    direction: rtl !important;
+}
+
+.nav-tabs {
+    margin-right: -18px;
+    background-color: #F2F2F2 !important;
+}
+.nav-tabs li{
+    float: right !important;
+    background-color: #F2F2F2;
+    border-left: 1px solid #ddd !important;
+    width: 33.3%;
+
+}
+.lampposition {
+    position: absolute;
+    top: -126px;
+    right: 21px;
+}
+.greenlamp {
+    -webkit-animation: blink 1s alternate infinite;
+    animation: blink 1s alternate infinite;
+
+}
+@-webkit-keyframes blink {
+    0% {
+        color: gray;
+    }
+    100% {
+        color: limegreen;
+    }
+}
+
+@keyframes blink {
+    0% {
+        color: gray;
+    }
+
+    100% {
+        color: limegreen;
+    }
+}
+.selectedMenu {
+    -webkit-animation: selected 1s alternate infinite;
+    animation: selected 1s alternate infinite;
+}
+@-webkit-keyframes selected {
+    0% {
+        box-shadow:0 2px 4px 0 rgba(0, 153, 204,0.8)
+    }
+    100% {
+        box-shadow:0 2px 4px 0 rgba(255,0,0,0.8)
+    }
+}
+
+@keyframes selected {
+    0% {
+        box-shadow:0 2px 4px 0 rgba(0, 153, 204,0.8)
+    }
+    100% {
+        box-shadow:0 2px 4px 0 rgba(255,0,0,0.8)
+    }
+}
+.redlamp {
+    -webkit-animation: blinkred 0.25s alternate infinite;
+    animation: blinkred 0.25s alternate infinite;
+}
+@-webkit-keyframes blinkred {
+    0% {
+        color: black;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes blinkred {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: red;
+    }
+}
+.freebadge {
+    position: absolute;
+    top: -130px;
+    left: 0;
+    transform: rotate(-44deg);
+
+}
+.badge {
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(190, 34, 45, 0.8);
+    display: inline-block;
+}
+.nav-tabs li a{
+    color: gray;
+    border-top: 2px solid #F2F2F2 !important;
+    padding: 5px 50px;
+    text-align: center;
+}
+.nav-tabs > li.active > a {
+    border-top: 2px solid orange !important;
+    border-radius: 0 !important;
+}
+.my-card {
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+@-webkit-keyframes rollIn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rollIn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+textarea {
+    margin-top: 5px;
+}
+.hover-pic p {
+    color: #e29d1d;
+    font-size: 26px;
+}
+.submenu {
+    cursor: pointer;
+}
+.sub-menu li {
+    color: #23282e;
+}
+.submenu:hover {
+    color: #e29d1d;
+}
+.android img {
+    width:49%;
+}
+.food-tag {
+    max-height: 258px;
+    overflow-y: scroll;
+}
+textarea {
+    width: 100%;
+    border: 1px solid gray !important;
+    direction: rtl;
+    margin-bottom: 15px;
+}
+.fa-heart {
+    padding: 0 5px;
+}
+.shopping-scroll {
+    max-height: 200px;
+    overflow-y: scroll;
+    border:1px solid gray;
+    width:90%;
+    margin-left: 15px;
+}
+.fa-plus-circle, .fa-calendar-plus-o{
+    padding-right: 5%;
+    color: limegreen;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.navbar {
+    border-radius: 0;
+}
+@media screen and (max-width:768px){
+    .col-sm-pull-8 button{
+        width: 100% !important;
+    }
+    .navbar-nav > li {
+        float: none !important;
+    }
+
+
+
+}
+
+/*Olde*/
+@font-face {
+    font-family: 'Nazanin';
+    src: url('../fonts/Nazanin.eot') format('eot'),
+        url('../fonts/Nazanin.woff') format('woff'),
+        url('../fonts/Nazanin.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "Nazanin", serif;
+    font-size: 16px;
+}
+.nav-side-menu {
+    overflow: auto;
+    /*font-family: verdana;*/
+    font-size: 18px;
+    font-weight: 200;
+    top: 0px;
+    right:0px;
+    width: 300px;
+    height: 100%;
+    color: #e1ffff;
+    text-align:right;
+    direction:rtl;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    margin-top: 5px;
+}
+.nav-side-menu .brand {
+    background-color: #23282e;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.nav-side-menu .toggle-btn {
+    display: none;
+}
+.nav-side-menu ul,
+.nav-side-menu li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    /*
+      .collapsed{
+         .arrow:before{
+                   font-family: FontAwesome;
+                   content: "\f053";
+                   display: inline-block;
+                   padding-left:10px;
+                   padding-right: 10px;
+                   vertical-align: middle;
+                   float:right;
+              }
+       }
+    */
+}
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.nav-side-menu ul .active,
+.nav-side-menu li .active {
+    border-left: 3px solid #d19b3d;
+    background-color: #4f5b69;
+}
+.nav-side-menu ul .sub-menu li.active,
+.nav-side-menu li .sub-menu li.active {
+    color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li.active a,
+.nav-side-menu li .sub-menu li.active a {
+    color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+    border: none;
+    line-height: 28px;
+
+    margin-left: 0px;
+}
+.nav-side-menu ul .sub-menu li:hover,
+.nav-side-menu li .sub-menu li:hover {
+    text-decoration: none;
+}
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.nav-side-menu li {
+    padding-left: 0px;
+    color: #333;
+    padding-right: 20px;
+}
+.nav-side-menu li a {
+    text-decoration: none;
+    color: #e29d1d;
+}
+.nav-side-menu li a i {
+    padding-left: 10px;
+    margin-left: 14px;
+    width: 20px;
+    padding-right: 20px;
+}
+.nav-side-menu li:hover {
+    border-left: 3px solid #d19b3d;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.nav-side-menu li i{
+    color: #BE222D;
+}
+@media (max-width: 767px) {
+    .nav-side-menu {
+
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-side-menu .toggle-btn {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 10 !important;
+        padding: 3px;
+        background-color: #ffffff;
+        color: #000;
+        width: 40px;
+        text-align: center;
+    }
+    .brand {
+        text-align: left !important;
+        font-size: 22px;
+        padding-left: 20px;
+        line-height: 50px !important;
+    }
+}
+@media (min-width: 767px) {
+    .nav-side-menu .menu-list .menu-content {
+        display: block;
+    }
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
